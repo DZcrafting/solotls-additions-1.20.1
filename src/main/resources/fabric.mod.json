@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "sols_adds",
+	"version": "${version}",
+	"name": "Solotl's Additions",
+	"description": "Small vanilla+ mod adding new building blocks and decorations.",
+	"authors": [
+		"Solotl"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "All rights reserved",
+	"icon": "assets/sols_adds/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.solotl.sols_adds.SolotlsAdditions"
+		],
+		"fabric-datagen": [
+			"net.solotl.sols_adds.SolotlsAdditionsDataGenerator"
+		],
+		"client": [
+			"net.solotl.sols_adds.SolotlsAdditionsClient"
+		]
+	},
+	"mixins": [
+		"sols_adds.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
