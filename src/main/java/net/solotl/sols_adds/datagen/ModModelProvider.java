@@ -16,6 +16,7 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SOUL_SHALE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SPHAGNUM_MOSS);
     }
 
     @Override

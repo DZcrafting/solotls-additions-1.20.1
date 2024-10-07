@@ -12,6 +12,7 @@ public class ModBlockLootTableGenerator extends FabricBlockLootTableProvider {
     @Override
     public void generate() {
         addDrop(ModBlocks.SOUL_SHALE);
+        addDrop(ModBlocks.SPHAGNUM_MOSS);
 
     }
 }

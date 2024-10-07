@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 
 import net.solotl.sols_adds.block.ModBlocks;
 import net.solotl.sols_adds.item.ModItems;
+import net.solotl.sols_adds.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -15,6 +16,7 @@ public class SolotlsAdditions implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		ModWorldGeneration.generateModWorldGeneration();
 	}
 
 }

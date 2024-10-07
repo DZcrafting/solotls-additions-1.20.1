@@ -27,6 +27,7 @@ public class ModItems {
     private static void itemGroupIngredients(FabricItemGroupEntries entries) {
         entries.add(BANANA);
         entries.add(ModBlocks.SOUL_SHALE);
+        entries.add(ModBlocks.SPHAGNUM_MOSS);
     }
     public static void registerModItems() {
         SolotlsAdditions.LOGGER.info("Registering Mod Items for " + SolotlsAdditions.MOD_ID);
